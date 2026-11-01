@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="id">
+<head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>Layanan Pembuatan Website: 7 Solusi Sektor Bisnis &amp; Workflow | Helpflow</title>
+  <meta name="description" content="Layanan pembuatan website profesional untuk 7 sektor bisnis: Company Profile, Landing Page, Katalog Digital, Kontraktor, Desain Interior, Bengkel Las, dan Bimbel."/>
+  <link rel="canonical" href="https://helpflow.my.id/services/"/>
+
+  <!-- OpenGraph Social Cards -->
+  <meta property="og:type" content="website"/>
+  <meta property="og:url" content="https://helpflow.my.id/services/"/>
+  <meta property="og:title" content="Layanan Pembuatan Website: 7 Solusi Sektor Bisnis &amp; Workflow | Helpflow"/>
+  <meta property="og:description" content="Layanan pembuatan website profesional untuk 7 sektor bisnis: Company Profile, Landing Page, Katalog Digital, Kontraktor, Desain Interior, Bengkel Las, dan Bimbel."/>
+  <meta property="og:site_name" content="Helpflow"/>
+  <meta property="og:image" content="https://helpflow.my.id/assets/og-cover.jpg"/>
+
+  <!-- Twitter / X Cards -->
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:title" content="Layanan Pembuatan Website: 7 Solusi Sektor Bisnis &amp; Workflow | Helpflow"/>
+  <meta name="twitter:description" content="Layanan pembuatan website profesional untuk 7 sektor bisnis: Company Profile, Landing Page, Katalog Digital, Kontraktor, Desain Interior, Bengkel Las, dan Bimbel."/>
+  <meta name="twitter:image" content="https://helpflow.my.id/assets/og-cover.jpg"/>
+
+  <!-- Structured Data JSON-LD: BreadcrumbList & Service -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://helpflow.my.id/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Layanan",
+            "item": "https://helpflow.my.id/services/"
+          }
+        ]
+      },
+      {
+        "@type": "Service",
+        "@id": "https://helpflow.my.id/services/#service",
+        "name": "Layanan Pembuatan Website Helpflow",
+        "serviceType": "Web Development",
+        "provider": {
+          "@type": "Organization",
+          "name": "Helpflow",
+          "url": "https://helpflow.my.id/"
+        },
+        "areaServed": [
+          { "@type": "AdministrativeArea", "name": "Banyumas" },
+          { "@type": "AdministrativeArea", "name": "Purwokerto" },
+          { "@type": "Country", "name": "Indonesia" },
+          { "@type": "Country", "name": "Singapore" },
+          { "@type": "Country", "name": "Malaysia" }
+        ],
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Paket Solusi Website Bisnis",
+          "itemListElement": [
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Website Company Profile" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Landing Page Khusus Iklan" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Katalog Produk Digital" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Website Kontraktor & Bangunan" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Website Studio Desain Interior" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Website Bengkel Las & Kanopi" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Website Bimbel & Sekolah" } }
+          ]
+        }
+      }
+    ]
+  }
+  </script>
+
+  <!-- Google Fonts: Inter -->
+  <link href="https://fonts.googleapis.com" rel="preconnect"/>
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+  <!-- Tailwind CSS v3 -->
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <!-- GSAP & ScrollTrigger CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Inter"', 'sans-serif'],
+          },
+          colors: {
+            brand: {
+              black: '#111111',
+              bg: '#fbfbfa',
+              coral: '#FF6F61',
+              magenta: '#D83A92',
+              purple: '#8E52F5',
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      color: #111111;
+      background-color: #fbfbfa;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      overflow-x: hidden;
+    }
+    .labrina-grad-linear {
+      background: linear-gradient(180deg, #FF6F61 0%, #D83A92 50%, #8E52F5 100%);
+    }
+    .labrina-grad-mesh {
+      background: linear-gradient(135deg, #FF6F61 0%, #E83E8C 40%, #D83A92 65%, #8E52F5 100%);
+    }
+    .interactive-card {
+      transition: transform 250ms ease-out, box-shadow 250ms ease-out;
+    }
+    @media (hover: hover) and (pointer: fine) {
+      .interactive-card:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.07), 0 8px 10px -6px rgba(0, 0, 0, 0.04);
+      }
+    }
+    .interactive-btn {
+      transition: transform 200ms ease-out, box-shadow 200ms ease-out, filter 200ms ease-out, background-color 200ms ease-out;
+    }
+    @media (hover: hover) and (pointer: fine) {
+      .interactive-btn:hover {
+        transform: translateY(-2px);
+        filter: brightness(1.05);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+      }
+    }
+    .interactive-btn:active {
+      transform: scale(0.97) translateY(0);
+    }
+    @media (prefers-reduced-motion: reduce) {
+      *, ::before, ::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+      }
+      .interactive-card:hover,
+      .interactive-btn:hover {
+        transform: none !important;
+      }
+    }
+  </style>
+</head>
+<body class="bg-[#fbfbfa] text-[#111111] antialiased">
+<div class="min-h-screen flex flex-col justify-between">
+
+  <!-- BEGIN: Navigation -->
+  <header class="sticky top-0 z-50 bg-[#fbfbfa]/90 backdrop-blur-md border-b border-neutral-200/60" id="nav-header">
+    <div class="max-w-md md:max-w-3xl lg:max-w-6xl xl:max-w-7xl mx-auto px-5 sm:px-8 lg:px-12 py-4 flex items-center justify-between">
+      <a class="text-[21px] lg:text-2xl font-bold tracking-[-0.02em] text-[#111111] lowercase hover:opacity-80 transition-opacity flex-shrink-0" href="/">
+        helpflow
+      </a>
+
+      <nav class="hidden xl:flex items-center gap-7 2xl:gap-8 text-xs xl:text-sm font-medium text-neutral-600">
+        <a class="hover:text-[#111111] transition-colors" href="/">Home</a>
+        <a class="text-[#111111] font-semibold transition-colors" href="/services/">Services</a>
+        <a class="hover:text-[#111111] transition-colors" href="/portfolio/">Portfolio</a>
+        <a class="hover:text-[#111111] transition-colors" href="/about/">About</a>
+        <a class="hover:text-[#111111] transition-colors" href="/pricing/">Pricing</a>
+        <a class="hover:text-[#111111] transition-colors" href="/insights/">Insights</a>
+        <a class="hover:text-[#111111] transition-colors" href="/contact/">Contact</a>
+      </nav>
+
+      <div class="hidden xl:flex items-center flex-shrink-0">
+        <a class="interactive-btn inline-flex items-center justify-center px-4 xl:px-5 py-2.5 rounded-full text-xs font-semibold bg-[#111111] text-white hover:bg-neutral-800 transition shadow-sm whitespace-nowrap" href="https://wa.me/6285158511979?text=Halo%20Helpflow,%20saya%20ingin%20konsultasi%20layanan%20pembuatan%20website." target="_blank" rel="noopener noreferrer">
+          Konsultasi via WhatsApp
+        </a>
+      </div>
+
+      <button aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="mobile-menu" id="mobile-menu-btn" class="xl:hidden w-9 h-9 flex flex-col items-end justify-center gap-1.5 focus:outline-none cursor-pointer group p-1" type="button">
+        <span class="w-5 h-[1.5px] bg-[#111111] rounded-full transition-transform group-hover:scale-x-110"></span>
+        <span class="w-3.5 h-[1.5px] bg-[#111111] rounded-full transition-transform group-hover:w-5"></span>
+      </button>
+    </div>
+
+    <div id="mobile-menu" class="hidden xl:hidden border-t border-neutral-200/60 bg-[#fbfbfa]/95 backdrop-blur-md px-5 sm:px-8 py-4 shadow-lg">
+      <nav class="flex flex-col space-y-3 text-sm font-medium text-neutral-700">
+        <a class="py-1 hover:text-[#111111] transition-colors" href="/">Home</a>
+        <a class="py-1 text-[#111111] font-semibold transition-colors" href="/services/">Services</a>
+        <a class="py-1 hover:text-[#111111] transition-colors" href="/portfolio/">Portfolio</a>
+        <a class="py-1 hover:text-[#111111] transition-colors" href="/about/">About</a>
+        <a class="py-1 hover:text-[#111111] transition-colors" href="/pricing/">Pricing</a>
+        <a class="py-1 hover:text-[#111111] transition-colors" href="/insights/">Insights</a>
+        <a class="py-1 hover:text-[#111111] transition-colors" href="/contact/">Contact</a>
+        <div class="pt-2">
+          <a class="interactive-btn inline-flex items-center justify-center w-full px-5 py-2.5 rounded-full text-xs font-semibold bg-[#111111] text-white hover:bg-neutral-800 transition shadow-sm" href="https://wa.me/6285158511979?text=Halo%20Helpflow,%20saya%20ingin%20konsultasi%20layanan%20pembuatan%20website." target="_blank" rel="noopener noreferrer">
+            Konsultasi via WhatsApp
+          </a>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- END: Navigation -->
+
+  <main class="w-full">
+    <!-- Header Hero -->
+    <section class="max-w-md md:max-w-3xl lg:max-w-6xl xl:max-w-7xl mx-auto px-5 sm:px-8 lg:px-12 pt-10 sm:pt-14 lg:pt-20 pb-8" data-scroll-header="">
+      <div class="max-w-3xl">
+        <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-neutral-100 border border-neutral-200/60 text-xs font-medium text-neutral-600 mb-4">
+          <span class="w-1.5 h-1.5 rounded-full bg-[#FF6F61]"></span>
+          Layanan Spesialis
+        </div>
+        <h1 class="text-3xl sm:text-4xl lg:text-5xl font-semibold tracking-tight text-[#111111] mb-6 leading-tight">
+          Website yang Dirancang Khusus Sesuai Karakter Sektor Usaha Anda.
+        </h1>
+        <p class="text-sm sm:text-base lg:text-lg text-neutral-600 leading-relaxed font-normal">
+          Setiap industri memiliki kebutuhan komunikasi yang berlainan. Kami membedakan solusi website berdasarkan perilaku calon pembeli pada masing-masing sektor bisnis.
+        </p>
+      </div>
+    </section>
+
+    <!-- 7 Business Website Types -->
+    <section class="max-w-md md:max-w-3xl lg:max-w-6xl xl:max-w-7xl mx-auto px-5 sm:px-8 lg:px-12 py-8 sm:py-12" data-scroll-section="">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8" data-stagger-group="">
+
+        <!-- 1. Company Profile -->
+        <div class="interactive-card bg-white border border-neutral-200/80 rounded-2xl p-6 sm:p-8 flex flex-col justify-between shadow-sm" id="company-profile" data-stagger-item="">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <span class="text-xs font-mono font-bold text-[#FF6F61] uppercase tracking-wider">01 &bull; Corporate</span>
+              <span class="text-[11px] px-2.5 py-0.5 rounded-full bg-neutral-100 text-neutral-600 font-medium">Kredibilitas</span>
+            </div>
+            <h2 class="text-lg sm:text-xl font-semibold text-[#111111] mb-3">Website Company Profile</h2>
+            <p class="text-xs sm:text-sm text-neutral-600 leading-relaxed font-normal mb-5">
+              Membangun reputasi terpercaya bagi korporasi dan institusi. Memuat visi-misi, susunan layanan, profil keahlian, dan bukti legalitas secara formal dan berkelas.
+            </p>
+            <ul class="space-y-2 text-xs text-neutral-500 mb-5">
+              <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-[#FF6F61]"></span> Navigasi multi-halaman rapi</li>
+              <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-[#FF6F61]"></span> Profil manajemen &amp; klien</li>
+              <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-[#FF6F61]"></span> Integrasi formulir penawaran</li>
+            </ul>
+            <div class="mb-5 pb-3 border-b border-neutral-100 text-[11px] text-neutral-500">
+              <a href="/insights/landing-page-vs-company-profile/" class="hover:text-[#111111] underline">Baca panduan: Kapan butuh Company Profile vs Landing Page &rarr;</a>
+            </div>
+          </div>
+          <a class="interactive-btn inline-flex items-center justify-center w-full py-2.5 rounded-full text-xs font-semibold bg-neutral-100 hover:bg-[#111111] text-neutral-800 hover:text-white transition" href="https://wa.me/6285158511979?text=Halo%20Helpflow,%20saya%20tertarik%20membuat%20Website%20Company%20Profile." target="_blank" rel="noopener noreferrer">
+            Konsultasi Company Profile
+          </a>
+        </div>
+
+        <!-- 2. Landing Page -->
+        <div class="interactive-card bg-white border border-neutral-200/80 rounded-2xl p-6 sm:p-8 flex flex-col justify-between shadow-sm" id="landing-page" data-stagger-item="">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <span class="text-xs font-mono font-bold text-[#D83A92] uppercase tracking-wider">02 &bull; Promo &amp; Iklan</span>
+              <span class="text-[11px] px-2.5 py-0.5 rounded-full bg-neutral-100 text-neutral-600 font-medium">Tinggi Konversi</span>
+            </div>
+            <h2 class="text-lg sm:text-xl font-semibold text-[#111111] mb-3">Landing Page Khusus Iklan</h2>
+            <p class="text-xs sm:text-sm text-neutral-600 leading-relaxed font-normal mb-5">
+              Dirancang khusus untuk kampanye iklan Google Ads, TikTok Ads, dan Instagram Ads. Struktur copywriting persuasif yang menuntun pengunjung ke WhatsApp.
+            </p>
+            <ul class="space-y-2 text-xs text-neutral-500 mb-5">
+              <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-[#D83A92]"></span> Desain single-page tanpa distraksi</li>
+              <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-[#D83A92]"></span> Loading super kilat demi skor iklan</li>
+              <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-[#D83A92]"></span> Tombol CTA dinamis di setiap seksi</li>
+            </ul>
+            <div class="mb-5 pb-3 border-b border-neutral-100 text-[11px] text-neutral-500">
+              <a href="/portfolio/website-demo-02/" class="hover:text-[#111111] underline">Lihat contoh: Demo Corporate Landing Page &rarr;</a>
+            </div>
+          </div>
+          <a class="interactive-btn inline-flex items-center justify-center w-full py-2.5 rounded-full text-xs font-semibold bg-neutral-100 hover:bg-[#111111] text-neutral-800 hover:text-white transition" href="https://wa.me/6285158511979?text=Halo%20Helpflow,%20saya%20tertarik%20membuat%20Landing%20Page." target="_blank" rel="noopener noreferrer">
+            Konsultasi Landing Page
+          </a>
+        </div>
+
+        <!-- 3. Katalog Digital -->
+        <div class="interactive-card bg-white border border-neutral-200/80 rounded-2xl p-6 sm:p-8 flex flex-col justify-between shadow-sm" id="katalog-digital" data-stagger-item="">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <span class="text-xs font-mono font-bold text-[#8E52F5] uppercase tracking-wider">03 &bull; Retail &amp; Produk</span>
+              <span class="text-[11px] px-2.5 py-0.5 rounded-full bg-neutral-100 text-neutral-600 font-medium">Visual Showcase</span>
+            </div>
+            <h2 class="text-lg sm:text-xl font-semibold text-[#111111] mb-3">Katalog Produk Digital</h2>
+            <p class="text-xs sm:text-sm text-neutral-600 leading-relaxed font-normal mb-5">
+              Pengganti brosur PDF yang berat. Pelanggan dapat memfilter kategori produk, melihat detail spesifikasi, dan memesan langsung via chat WhatsApp.
+            </p>
+            <ul class="space-y-2 text-xs text-neutral-500 mb-5">
+              <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-[#8E52F5]"></span> Filter kategori cepat</li>
+              <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-[#8E52F5]"></span> Galeri foto produk beresolusi tajam</li>
+              <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-[#8E52F5]"></span> Order per produk otomatis ke pesan</li>
+            </ul>
+            <div class="mb-5 pb-3 border-b border-neutral-100 text-[11px] text-neutral-500">
+              <a href="/pricing/" class="hover:text-[#111111] underline">Termasuk dalam paket mulai Rp1.000.000 &rarr;</a>
+            </div>
+          </div>
+          <a class="interactive-btn inline-flex items-center justify-center w-full py-2.5 rounded-full text-xs font-semibold bg-neutral-100 hover:bg-[#111111] text-neutral-800 hover:text-white transition" href="https://wa.me/6285158511979?text=Halo%20Helpflow,%20saya%20tertarik%20membuat%20Katalog%20Digital." target="_blank" rel="noopener noreferrer">
+            Konsultasi Katalog Digital
+          </a>
+        </div>
+
+        <!-- 4. Kontraktor -->
+        <div class="interactive-card bg-white border border-neutral-200/80 rounded-2xl p-6 sm:p-8 flex flex-col justify-between shadow-sm" id="kontraktor" data-stagger-item="">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <span class="text-xs font-mono font-bold text-[#FF6F61] uppercase tracking-wider">04 &bull; Bangunan</span>
+              <span class="text-[11px] px-2.5 py-0.5 rounded-full bg-neutral-100 text-neutral-600 font-medium">Konstruksi</span>
+            </div>
+            <h2 class="text-lg sm:text-xl font-semibold text-[#111111] mb-3">Kontraktor &amp; Bangunan</h2>
+            <p class="text-xs sm:text-sm text-neutral-600 leading-relaxed font-normal mb-5">
+              Website untuk kontraktor sipil, renovasi rumah, dan pembangunan komersial. Menekankan rekam jejak proyek selesai, tahapan pengerjaan, dan legalitas badan usaha.
+            </p>
+            <ul class="space-y-2 text-xs text-neutral-500 mb-5">
+              <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-[#FF6F61]"></span> Showcase proyek sebelum-sesudah</li>
+              <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-[#FF6F61]"></span> Alur garansi &amp; kontrak kerja</li>
+              <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-[#FF6F61]"></span> Estimasi RAB cepat via WhatsApp</li>
+            </ul>
+            <div class="mb-5 pb-3 border-b border-neutral-100 text-[11px] text-neutral-500 flex flex-col gap-1">
+              <a href="/portfolio/welder-bintaro/" class="hover:text-[#111111] underline">Studi kasus klien: Welder Bintaro &rarr;</a>
+              <a href="/insights/website-company-profile-untuk-kontraktor/" class="hover:text-[#111111] underline">Panduan: 5 Elemen Website Kontraktor &rarr;</a>
+            </div>
+          </div>
+          <a class="interactive-btn inline-flex items-center justify-center w-full py-2.5 rounded-full text-xs font-semibold bg-neutral-100 hover:bg-[#111111] text-neutral-800 hover:text-white transition" href="https://wa.me/6285158511979?text=Halo%20Helpflow,%20saya%20tertarik%20membuat%20website%20Kontraktor." target="_blank" rel="noopener noreferrer">
+            Konsultasi Kontraktor
+          </a>
+        </div>
+
+        <!-- 5. Desain Interior -->
+        <div class="interactive-card bg-white border border-neutral-200/80 rounded-2xl p-6 sm:p-8 flex flex-col justify-between shadow-sm" id="desain-interior" data-stagger-item="">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <span class="text-xs font-mono font-bold text-[#D83A92] uppercase tracking-wider">05 &bull; Arsitektur</span>
+              <span class="text-[11px] px-2.5 py-0.5 rounded-full bg-neutral-100 text-neutral-600 font-medium">Estetika Tinggi</span>
+            </div>
+            <h2 class="text-lg sm:text-xl font-semibold text-[#111111] mb-3">Studio Desain Interior</h2>
+            <p class="text-xs sm:text-sm text-neutral-600 leading-relaxed font-normal mb-5">
+              Tata letak editorial kontemporer yang memberi ruang leluasa bagi foto visual ruangan, moodboard, rincian material, dan filosofi desain ruang yang mewah.
+            </p>
+            <ul class="space-y-2 text-xs text-neutral-500 mb-5">
+              <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-[#D83A92]"></span> Galeri foto arsitektur fullscreen</li>
+              <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-[#D83A92]"></span> Penjelasan paket konsultasi desain</li>
+              <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-[#D83A92]"></span> Booking jadwal survei lokasi</li>
+            </ul>
+            <div class="mb-5 pb-3 border-b border-neutral-100 text-[11px] text-neutral-500">
+              <a href="/insights/manfaat-website-untuk-bisnis-interior/" class="hover:text-[#111111] underline">Panduan: Mengapa Interior Butuh Portofolio Web &rarr;</a>
+            </div>
+          </div>
+          <a class="interactive-btn inline-flex items-center justify-center w-full py-2.5 rounded-full text-xs font-semibold bg-neutral-100 hover:bg-[#111111] text-neutral-800 hover:text-white transition" href="https://wa.me/6285158511979?text=Halo%20Helpflow,%20saya%20tertarik%20membuat%20website%20Desain%20Interior." target="_blank" rel="noopener noreferrer">
+            Konsultasi Desain Interior
+          </a>
+        </div>
+
+        <!-- 6. Bengkel Las & Kanopi -->
+        <div class="interactive-card bg-white border border-neutral-200/80 rounded-2xl p-6 sm:p-8 flex flex-col justify-between shadow-sm" id="bengkel-las" data-stagger-item="">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <span class="text-xs font-mono font-bold text-[#8E52F5] uppercase tracking-wider">06 &bull; Bengkel &amp; Fabrikasi</span>
+              <span class="text-[11px] px-2.5 py-0.5 rounded-full bg-neutral-100 text-neutral-600 font-medium">Spesialis Las</span>
+            </div>
+            <h2 class="text-lg sm:text-xl font-semibold text-[#111111] mb-3">Bengkel Las &amp; Kanopi</h2>
+            <p class="text-xs sm:text-sm text-neutral-600 leading-relaxed font-normal mb-5">
+              Solusi teruji yang telah kami terapkan pada Welder Bintaro. Menampilkan varian kanopi solarflat, alderon, pagar laser cutting, dan railing balkon terpadu.
+            </p>
+            <ul class="space-y-2 text-xs text-neutral-500 mb-5">
+              <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-[#8E52F5]"></span> Katalog pengerjaan nyata</li>
+              <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-[#8E52F5]"></span> Pilihan bahan &amp; spesifikasi besi</li>
+              <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-[#8E52F5]"></span> Request survei ukuran gratis</li>
+            </ul>
+            <div class="mb-5 pb-3 border-b border-neutral-100 text-[11px] text-neutral-500">
+              <a href="/portfolio/welder-bintaro/" class="hover:text-[#111111] underline">Studi kasus klien: Welder Bintaro &rarr;</a>
+            </div>
+          </div>
+          <a class="interactive-btn inline-flex items-center justify-center w-full py-2.5 rounded-full text-xs font-semibold bg-neutral-100 hover:bg-[#111111] text-neutral-800 hover:text-white transition" href="https://wa.me/6285158511979?text=Halo%20Helpflow,%20saya%20tertarik%20membuat%20website%20Bengkel%20Las." target="_blank" rel="noopener noreferrer">
+            Konsultasi Bengkel Las
+          </a>
+        </div>
+
+        <!-- 7. Bimbel & Sekolah -->
+        <div class="interactive-card bg-white border border-neutral-200/80 rounded-2xl p-6 sm:p-8 flex flex-col justify-between shadow-sm md:col-span-2 lg:col-span-3" id="bimbel-sekolah" data-stagger-item="">
+          <div class="lg:grid lg:grid-cols-12 lg:gap-8 items-center">
+            <div class="lg:col-span-8">
+              <div class="flex items-center gap-3 mb-3">
+                <span class="text-xs font-mono font-bold text-[#FF6F61] uppercase tracking-wider">07 &bull; Edukasi</span>
+                <span class="text-[11px] px-2.5 py-0.5 rounded-full bg-neutral-100 text-neutral-600 font-medium">Lembaga Belajar</span>
+              </div>
+              <h2 class="text-xl sm:text-2xl font-semibold text-[#111111] mb-3">Bimbel, Kursus &amp; Sekolah</h2>
+              <p class="text-xs sm:text-sm text-neutral-600 leading-relaxed font-normal mb-4">
+                Membantu lembaga bimbingan belajar, kursus keahlian, dan sekolah swasta menjangkau para orang tua murid dengan presentasi kurikulum yang transparan, jadwal les yang jelas, dan formulir pendaftaran murid baru yang langsung terhubung ke WhatsApp staf pendaftaran.
+              </p>
+              <div class="flex flex-wrap gap-4 text-xs text-neutral-500 mb-4">
+                <span class="flex items-center gap-1.5"><span class="w-1.5 h-1.5 rounded-full bg-[#FF6F61]"></span> Rincian Paket Jenjang SD/SMP/SMA</span>
+                <span class="flex items-center gap-1.5"><span class="w-1.5 h-1.5 rounded-full bg-[#D83A92]"></span> Profil Pengajar &amp; Metode Belajar</span>
+                <span class="flex items-center gap-1.5"><span class="w-1.5 h-1.5 rounded-full bg-[#8E52F5]"></span> Pendaftaran Terverifikasi Instan</span>
+              </div>
+              <div class="text-[11px] text-neutral-500">
+                <a href="/portfolio/bimbel-doa-bunda/" class="hover:text-[#111111] underline">Studi kasus klien: Website Bimbel Doa Bunda &rarr;</a>
+              </div>
+            </div>
+            <div class="lg:col-span-4 mt-6 lg:mt-0 flex flex-col justify-center">
+              <a class="interactive-btn inline-flex items-center justify-center w-full py-3 rounded-full text-xs sm:text-sm font-semibold bg-[#111111] text-white hover:bg-neutral-800 transition shadow-sm" href="https://wa.me/6285158511979?text=Halo%20Helpflow,%20saya%20tertarik%20membuat%20website%20Bimbel%20atau%20Sekolah." target="_blank" rel="noopener noreferrer">
+                Konsultasi Website Pendidikan
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Transparent AI-Assisted Workflow (4 Steps) -->
+    <section class="max-w-md md:max-w-3xl lg:max-w-6xl xl:max-w-7xl mx-auto px-5 sm:px-8 lg:px-12 py-12 sm:py-16 border-t border-neutral-200/60" data-scroll-section="">
+      <div class="max-w-2xl mb-12" data-scroll-header="">
+        <div class="text-xs font-semibold text-neutral-400 uppercase tracking-wider mb-2">Transparansi Proses &amp; Pemeliharaan</div>
+        <h2 class="text-2xl sm:text-3xl font-semibold text-[#111111] mb-3">
+          Alur Kerja Modern Berbantuan AI: Cepat, Presisi, dan Tanpa Ketergantungan CMS Berat.
+        </h2>
+        <p class="text-xs sm:text-sm text-neutral-600 leading-relaxed font-normal">
+          Kami tidak menggunakan sistem CMS tradisional yang rentan hack dan berat. Untuk pembuatan awal maupun pembaruan konten berkelanjutan, kami menerapkan alur 4 langkah berbantuan Google AI Studio dan Cloudflare Pages.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6" data-stagger-group="">
+        <!-- Step 1 -->
+        <div class="p-6 bg-white border border-neutral-200/80 rounded-2xl shadow-sm flex flex-col justify-between" data-stagger-item="">
+          <div>
+            <div class="w-9 h-9 rounded-xl bg-neutral-100 flex items-center justify-center font-bold text-xs text-[#111111] mb-4">01</div>
+            <h3 class="text-base font-semibold text-[#111111] mb-2">Klien Kirim Permintaan</h3>
+            <p class="text-xs sm:text-sm text-neutral-600 leading-relaxed font-normal">
+              Klien mengajukan materi baru, foto proyek, perubahan harga, atau revisi informasi via chat WhatsApp resmi Helpflow.
+            </p>
+          </div>
+          <div class="pt-6 text-[11px] font-mono text-neutral-400">Langkah 1: Request Masuk</div>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="p-6 bg-white border border-neutral-200/80 rounded-2xl shadow-sm flex flex-col justify-between" data-stagger-item="">
+          <div>
+            <div class="w-9 h-9 rounded-xl bg-neutral-100 flex items-center justify-center font-bold text-xs text-[#FF6F61] mb-4">02</div>
+            <h3 class="text-base font-semibold text-[#111111] mb-2">Google AI Studio Assist</h3>
+            <p class="text-xs sm:text-sm text-neutral-600 leading-relaxed font-normal">
+              Google AI Studio membantu pengembang Helpflow memodifikasi konten kode statis secara akurat, konsisten, dan bebas bug dalam hitungan menit.
+            </p>
+          </div>
+          <div class="pt-6 text-[11px] font-mono text-[#FF6F61]">Langkah 2: AI Assistance</div>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="p-6 bg-white border border-neutral-200/80 rounded-2xl shadow-sm flex flex-col justify-between" data-stagger-item="">
+          <div>
+            <div class="w-9 h-9 rounded-xl bg-neutral-100 flex items-center justify-center font-bold text-xs text-[#D83A92] mb-4">03</div>
+            <h3 class="text-base font-semibold text-[#111111] mb-2">GitHub Version Control</h3>
+            <p class="text-xs sm:text-sm text-neutral-600 leading-relaxed font-normal">
+              Perubahan diverifikasi dan disimpan ke repositori GitHub. Riwayat versi tersimpan aman dan dapat dipulihkan sewaktu-waktu.
+            </p>
+          </div>
+          <div class="pt-6 text-[11px] font-mono text-[#D83A92]">Langkah 3: Commit &amp; Sync</div>
+        </div>
+
+        <!-- Step 4 -->
+        <div class="p-6 bg-white border border-neutral-200/80 rounded-2xl shadow-sm flex flex-col justify-between" data-stagger-item="">
+          <div>
+            <div class="w-9 h-9 rounded-xl bg-neutral-100 flex items-center justify-center font-bold text-xs text-[#8E52F5] mb-4">04</div>
+            <h3 class="text-base font-semibold text-[#111111] mb-2">Cloudflare Pages Deploy</h3>
+            <p class="text-xs sm:text-sm text-neutral-600 leading-relaxed font-normal">
+              Cloudflare Pages secara otomatis merilis pembaruan ke 300+ titik server CDN di seluruh dunia dalam hitungan detik dengan keamanan SSL penuh.
+            </p>
+          </div>
+          <div class="pt-6 text-[11px] font-mono text-[#8E52F5]">Langkah 4: Auto Deploy</div>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <!-- Final CTA Section -->
+    <section class="max-w-md md:max-w-3xl lg:max-w-6xl xl:max-w-7xl mx-auto px-5 sm:px-8 lg:px-12 py-8 sm:py-12 lg:py-16 mb-8 lg:mb-16" data-scroll-section="">
+      <div class="interactive-card border border-neutral-200/80 rounded-3xl overflow-hidden bg-white shadow-sm lg:grid lg:grid-cols-12 lg:items-stretch" data-scroll-item="">
+        <div class="lg:col-span-8 p-6 sm:p-10 lg:p-14 flex flex-col justify-center">
+          <h2 class="text-2xl sm:text-3xl lg:text-4xl font-semibold tracking-tight text-[#111111] mb-3 leading-snug">
+            Ingin membuat website untuk salah satu sektor usaha di atas?
+          </h2>
+          <p class="text-xs sm:text-sm lg:text-base text-neutral-600 mb-6 sm:mb-8 leading-relaxed font-normal max-w-xl">
+            Diskusikan kebutuhan bisnis Anda sekarang dan kami akan menyiapkan rancangan website terbaik untuk Anda.
+          </p>
+          <div>
+            <a class="interactive-btn inline-flex items-center justify-center px-6 sm:px-8 py-3 rounded-full text-xs sm:text-sm font-semibold bg-[#111111] text-white hover:bg-neutral-800 transition" href="https://wa.me/6285158511979?text=Halo%20Helpflow,%20saya%20ingin%20konsultasi%20pembuatan%20website%20untuk%20sektor%20usaha%20saya." target="_blank" rel="noopener noreferrer">
+              Konsultasi Sekarang
+            </a>
+          </div>
+        </div>
+        <div class="lg:col-span-4 h-20 sm:h-24 lg:h-auto w-full labrina-grad-mesh"></div>
+      </div>
+    </section>
+  </main>
+
+  <!-- BEGIN: Footer -->
+  <footer class="bg-[#111111] text-neutral-400 py-12 sm:py-16 lg:py-20 relative overflow-hidden" data-scroll-section="">
+    <div class="absolute bottom-4 sm:bottom-0 left-1/2 -translate-x-1/2 select-none pointer-events-none opacity-[0.035] text-[34vw] lg:text-[18vw] font-bold tracking-tighter text-white whitespace-nowrap z-0 lowercase">
+      helpflow
+    </div>
+    <div class="max-w-md md:max-w-3xl lg:max-w-6xl xl:max-w-7xl mx-auto px-5 sm:px-8 lg:px-12 relative z-10" data-scroll-item="">
+      <div class="grid grid-cols-1 md:grid-cols-12 gap-8 lg:gap-12 pb-10 lg:pb-12 border-b border-neutral-800">
+        <div class="md:col-span-5 lg:col-span-5">
+          <a class="text-xl lg:text-2xl font-bold tracking-tight text-white block mb-3 lg:mb-4 lowercase hover:opacity-80 transition-opacity" href="/">
+            helpflow
+          </a>
+          <p class="text-xs sm:text-sm text-neutral-400 leading-relaxed font-normal max-w-sm">
+            Helpflow membantu bisnis membangun website profesional yang responsif, ringan, dan dirancang untuk mendukung pertumbuhan bisnis di era digital.
+          </p>
+        </div>
+
+        <div class="md:col-span-3 lg:col-span-3">
+          <div class="text-[11px] lg:text-xs font-semibold text-neutral-300 tracking-wider uppercase mb-3 lg:mb-4">Explore</div>
+          <ul class="space-y-2.5 text-xs sm:text-sm text-neutral-400">
+            <li><a class="hover:text-white transition" href="/about/">Tentang Helpflow</a></li>
+            <li><a class="hover:text-white transition" href="/portfolio/">Portofolio</a></li>
+            <li><a class="hover:text-white transition" href="/pricing/">Harga &amp; Paket</a></li>
+            <li><a class="hover:text-white transition" href="/insights/">Artikel &amp; Insight</a></li>
+          </ul>
+        </div>
+
+        <div class="md:col-span-4 lg:col-span-4">
+          <div class="text-[11px] lg:text-xs font-semibold text-neutral-300 tracking-wider uppercase mb-3 lg:mb-4">Services</div>
+          <ul class="space-y-2.5 text-xs sm:text-sm text-neutral-400 mb-6">
+            <li><a class="hover:text-white transition" href="/services/#company-profile">Website Company Profile</a></li>
+            <li><a class="hover:text-white transition" href="/services/#landing-page">Landing Page</a></li>
+            <li><a class="hover:text-white transition" href="/services/#katalog-digital">Katalog Digital</a></li>
+          </ul>
+          <div class="flex flex-wrap items-center gap-4 text-xs sm:text-sm text-neutral-500">
+            <span class="text-[11px] lg:text-xs font-semibold text-neutral-300 uppercase tracking-wider">Socials:</span>
+            <a class="text-neutral-400 hover:text-white transition" href="https://www.instagram.com/Ahmad_cihuyy15/" rel="noreferrer" target="_blank">Instagram</a>
+            <a class="text-neutral-400 hover:text-white transition" href="https://www.tiktok.com/@Ahmad_cihuyy15" rel="noreferrer" target="_blank">TikTok</a>
+            <a class="text-neutral-400 hover:text-white transition" href="https://www.linkedin.com/in/ahmad-abdullah-330a53444/" rel="noreferrer" target="_blank">LinkedIn</a>
+            <a class="text-neutral-400 hover:text-white transition" href="https://github.com/muhammadhammud001-collab" rel="noreferrer" target="_blank">GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="pt-6 sm:pt-8 flex flex-col sm:flex-row items-center justify-between gap-3 text-[11px] sm:text-xs text-neutral-500">
+        <div class="leading-relaxed">
+          &copy; 2026 Helpflow. Jasa Pembuatan Website Profesional.
+        </div>
+        <div class="flex items-center space-x-4 text-neutral-400">
+          <a class="hover:text-white transition" href="/contact/">Hubungi Kami</a>
+          <span>&bull;</span>
+          <a class="hover:text-white transition" href="mailto:Helpflow.my.id@gmail.com">Helpflow.my.id@gmail.com</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- END: Footer -->
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const menuBtn = document.getElementById('mobile-menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    if (menuBtn && mobileMenu) {
+      function toggleMenu(open) {
+        const isHidden = mobileMenu.classList.contains('hidden');
+        const shouldOpen = open !== undefined ? open : isHidden;
+        if (shouldOpen) {
+          mobileMenu.classList.remove('hidden');
+          menuBtn.setAttribute('aria-expanded', 'true');
+        } else {
+          mobileMenu.classList.add('hidden');
+          menuBtn.setAttribute('aria-expanded', 'false');
+        }
+      }
+      menuBtn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        toggleMenu();
+      });
+      document.addEventListener('click', (e) => {
+        if (!mobileMenu.contains(e.target) && !menuBtn.contains(e.target)) {
+          toggleMenu(false);
+        }
+      });
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') toggleMenu(false);
+      });
+    }
+
+    if (typeof ScrollTrigger !== "undefined" && typeof gsap !== "undefined") {
+      gsap.utils.toArray("[data-scroll-header]").forEach((el) => {
+        gsap.from(el, {
+          scrollTrigger: { trigger: el, start: "top 85%", once: true },
+          y: 20,
+          opacity: 0,
+          duration: 0.7,
+          ease: "power3.out"
+        });
+      });
+      gsap.utils.toArray("[data-scroll-item]").forEach((el) => {
+        gsap.from(el, {
+          scrollTrigger: { trigger: el, start: "top 85%", once: true },
+          y: 24,
+          opacity: 0,
+          duration: 0.75,
+          ease: "power3.out"
+        });
+      });
+      gsap.utils.toArray("[data-stagger-group]").forEach((group) => {
+        const items = group.querySelectorAll("[data-stagger-item]");
+        if (items.length > 0) {
+          gsap.from(items, {
+            scrollTrigger: { trigger: group, start: "top 85%", once: true },
+            y: 24,
+            opacity: 0,
+            duration: 0.65,
+            stagger: 0.12,
+            ease: "power3.out"
+          });
+        }
+      });
+    }
+  });
+</script>
+</body>
+</html>
